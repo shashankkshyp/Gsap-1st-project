@@ -1,66 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gilroy';
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  color: white;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-#main{
-    height: 100%;
-    width: 100%;
-    background-color: #000;
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
 }
-#nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    padding: 0 30px;
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 30px;
 }
-#nav-part2{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-#nav h3{
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 400;
+#nav h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
-#main h1{
-    font-size: 150px;
-    text-transform: uppercase;
-    font-weight: 400;
-    line-height: 120px;
-    width: 80%;
-    margin-left: 10%;
-    position: relative;
-    z-index: 9;
+#main h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 120px;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  z-index: 9;
 }
-#main h1:nth-child(2){
-    margin-top: 180px;
+#main h1:nth-child(2) {
+  margin-top: 180px;
 }
-#main h1:nth-child(3){
-    text-align: center;
+#main h1:nth-child(3) {
+  text-align: center;
 }
-#main h1:nth-child(4){
-    text-align: center;
+#main h1:nth-child(4) {
+  text-align: center;
 }
-img{
-    height: 400px;
-    position: absolute;
-    top: 12%;
-    left: 40%;
+img {
+  height: 400px;
+  position: absolute;
+  top: 12%;
+  left: 40%;
 }
-#img1{
-    rotate: 20deg;
+#img1 {
+  rotate: 20deg;
 }
-#img2{
-    rotate: 10deg;
+#img2 {
+  rotate: 10deg;
+}
+#lower-nav {
+  bottom: 0; /* Aligns the element to the bottom edge of the viewport. */
+  left: 0; /* Aligns the element to the left edge of the viewport. */
+  width: 100%;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }

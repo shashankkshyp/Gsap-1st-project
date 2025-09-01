@@ -20,3 +20,9 @@ tl.from("img",{
     duration:0.5,
     stagger:0.5
 })
+tl.from("#lower-nav",{
+    x:-50,
+    opacity:0,
+    duration:0.8,
+    stagger:0.2
+})
